@@ -20,8 +20,8 @@
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Java Full Course for Beginners](https://www.youtube.com/watch?v=eIrMbAQSU34&t=5443s&ab_channel=ProgrammingwithMosh)
+- [Java Tutorials - Objects, Classes, Interfaces, Packages and Inheritance](https://dev.java/learn/oop/)
 
 # Future Work
 
