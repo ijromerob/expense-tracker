@@ -9,3 +9,11 @@ public class App {
     System.out.println("your age is "+age);
   }
 }
+
+// Expenses
+// Type, Concept, Amount, (system date), 
+
+// Money Movement parent class
+// Type, Concept, Amount, (system date)
+// expenses and costs
+
