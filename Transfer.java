@@ -2,17 +2,19 @@ import java.time.LocalDate;
 
 public class Transfer{
 
-  String description = "";
-  float amount = 0.0F;
-  LocalDate transferDate = LocalDate.now();
+  String description;
+  float amount;
+  LocalDate transferDate;
 
   // Constructor
-  public Transfer(){
-
+  public Transfer(String descriptionInput, float amountInput){
+    this.description = descriptionInput;
+    this.amount = amountInput;
+    this.transferDate = LocalDate.now();
   }
 
   void printTransaction(){
-    System.out.println("Description: " + description + " Amount: " + amount);
+    System.out.println(transferDate + " Description: " + description + " Amount: " + amount);
   }
 
 

@@ -3,10 +3,18 @@ import java.util.Scanner;
 public class App {
 
   public static void main (String[] args){
+    
+// Starting a new class 
+
+
+// enter description
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Please enter your age: ");
-    int age = Integer.parseInt(scanner.nextLine());
-    System.out.println("your age is "+age);
+    System.out.print("Please enter a description: ");
+    String description = scanner.nextLine();
+
+    System.out.print("Please enter an amount: ");
+    float amount = float.parseFloat(scanner.nextLine());
+    Transfer testAmount
   }
 }
 
@@ -15,3 +23,5 @@ public class App {
 // Type, Concept, Amount, (system date)
 // expenses and costs
 
+
+// Class for error handling
