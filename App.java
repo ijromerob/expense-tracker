@@ -10,8 +10,6 @@ public class App {
   }
 }
 
-// Expenses
-// Type, Concept, Amount, (system date), 
 
 // Money Movement parent class
 // Type, Concept, Amount, (system date)
