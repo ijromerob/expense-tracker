@@ -4,7 +4,7 @@ public class App {
 
   public static void main (String[] args){
     
-// Starting a new class 
+
 
 
 // enter description
@@ -13,8 +13,11 @@ public class App {
     String description = scanner.nextLine();
 
     System.out.print("Please enter an amount: ");
-    float amount = float.parseFloat(scanner.nextLine());
-    Transfer testAmount
+    float amount = Float.parseFloat(scanner.nextLine());
+
+    Transfer testAmount = new Transfer(description, amount);
+
+    testAmount.printTransaction();
   }
 }
 
