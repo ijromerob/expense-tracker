@@ -19,9 +19,3 @@ public class App {
     testAmount.printTransaction();
   }
 }
-
-// Money Movement parent class
-// Type, Concept, Amount, (system date)
-// expenses and costs
-
-// Class for error handling
