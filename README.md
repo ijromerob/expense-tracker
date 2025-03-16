@@ -17,8 +17,6 @@ I installed the extension pack for java by microsoft and the Language Support fo
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
 - Store items to a csv file for further analysis on trends.
 - Add more categories (classes) for organizing expenses.
 - Creating subtotals for each category.
