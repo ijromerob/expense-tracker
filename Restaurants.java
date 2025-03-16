@@ -8,9 +8,10 @@ public class Restaurants extends Transfer {
     this.restaurant = restaurant;
   }
 
-  void printCostTransaction() {
-    super.printTransaction();
-    System.out.println("restaurant: " + this.restaurant);
+  @Override
+  void printTransaction() {
+    System.out.println(transferDate + " Description: " + description + " Amount: " + amount + " restaurant: "
+        + this.restaurant);
   }
 
 }

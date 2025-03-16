@@ -8,9 +8,10 @@ public class Groceries extends Transfer {
     this.retailer = retailer;
   }
 
-  void printCostTransaction() {
-    super.printTransaction();
-    System.out.println("retailer: " + this.retailer);
+  @Override
+  void printTransaction() {
+    System.out.println(transferDate + " Description: " + description + " Amount: " + amount + " retailer: "
+        + this.retailer);
   }
 
 }

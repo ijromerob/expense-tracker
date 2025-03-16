@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Transfer {
+public abstract class Transfer {
 
   String description;
   float amount;
@@ -22,8 +22,6 @@ public class Transfer {
     this.transferDate = LocalDate.now();
   }
 
-  void printTransaction() {
-    System.out.println(transferDate + " Description: " + description + " Amount: " + amount);
-  }
+  abstract void printTransaction();
 
 }

@@ -1,10 +1,6 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
+The purpose of this program is to record personal expenses and keep track of them. It currently handles grocery and restaurant expenses. I am seeking to experiment with Java as I am new to this language. In this version I have used object oriented programming, experimenting with variables, expressions, conditionals, loops, functions, classes, ArrayLists, and inheritance.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 

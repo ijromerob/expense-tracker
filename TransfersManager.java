@@ -24,7 +24,7 @@ public class TransfersManager {
       System.out.println("there are no groceries expenses");
     } else {
       for (Groceries g : groceries) {
-        g.printCostTransaction();
+        g.printTransaction();
       }
     }
 
@@ -33,7 +33,7 @@ public class TransfersManager {
       System.out.println("there are no restaurant expenses");
     } else {
       for (Restaurants r : restaurants) {
-        r.printCostTransaction();
+        r.printTransaction();
       }
     }
   }
