@@ -2,9 +2,7 @@
 
 The purpose of this program is to record personal expenses and keep track of them. It currently handles grocery and restaurant expenses. I am seeking to experiment with Java as I am new to this language. In this version I have used object oriented programming, experimenting with variables, expressions, conditionals, loops, functions, classes, ArrayLists, and inheritance.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/G1vEcqj_YCM)
 
 # Development Environment
 
