@@ -3,9 +3,13 @@ import java.util.Scanner;
 public class App {
 
   public static void main(String[] args) {
-
+    // This instance will validate numbers as positive numeric inputs
     Validation inputValidation = new Validation();
+
+    // this instance will manage what the user wants to do
     TransfersManager manager = new TransfersManager();
+
+    // scanner reads the inputs from the terminal
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Welcome to your expense tracker!");

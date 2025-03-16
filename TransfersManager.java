@@ -1,10 +1,15 @@
 import java.util.ArrayList;
 
 public class TransfersManager {
+  // The class will create lists of instances of groceries and restaurants
   ArrayList<Groceries> groceries = new ArrayList<>();
-  ArrayList<Restaurants> restaurants = new ArrayList<>();;
+  ArrayList<Restaurants> restaurants = new ArrayList<>();
+
+  // a validation instance will be needed to make sure amounts are correct
   Validation inputValidation = new Validation();
 
+  // This method creates an instance of a restaurant and adds it to the restaurant
+  // ArrayList
   void addRestaurants() {
     Restaurants newRestaurant = new Restaurants();
     restaurants.add(newRestaurant);
@@ -12,12 +17,17 @@ public class TransfersManager {
 
   }
 
+  // This method creates an instance of a groceries and adds it to the restaurant
+  // ArrayList
+
   void addGroceries() {
     Groceries newGrocery = new Groceries();
     groceries.add(newGrocery);
     System.out.println("your groceries expense has been added");
   }
 
+  // This method prints all the groceries in the groceries list and all the
+  // restaurant expenses into the terminal
   void printAll() {
     System.out.println("GROCERIES");
     if (groceries.size() == 0) {
