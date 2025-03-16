@@ -5,17 +5,33 @@ public class App {
   public static void main(String[] args) {
 
     Validation inputValidation = new Validation();
-
-    // enter description
+    TransfersManager manager = new TransfersManager();
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Please enter a description: ");
-    String description = scanner.nextLine();
 
-    System.out.print("Please enter an amount: ");
-    float amount = inputValidation.validateNumber(scanner.nextLine());
+    System.out.println("Welcome to your expense tracker!");
+    while (true) {
+      System.out.println("Please enter one of the following options");
+      System.out.println("1. Add a grocery ");
+      System.out.println("2. Add restaurants");
+      System.out.println("3. Print all");
+      System.out.println("4. Quit");
 
-    Transfer testAmount = new Transfer(description, amount);
+      System.out.print("Please enter your choice: ");
+      float option = inputValidation.validateNumber(scanner.nextLine());
+      if (option == 1) {
+        manager.addGroceries();
+      } else if (option == 2) {
+        manager.addRestaurants();
+      } else if (option == 3) {
+        manager.printAll();
+      } else if (option == 4) {
+        break;
+      } else {
+        System.out.println("this option does not is not in the menu");
+        continue;
+      }
 
-    testAmount.printTransaction();
+    }
+    System.out.println("thanks for using the expense tracker!");
   }
 }

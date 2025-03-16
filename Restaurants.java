@@ -1,15 +1,16 @@
 public class Restaurants extends Transfer {
 
-  String retailer;
+  String restaurant;
 
-  public Restaurants(String retailer, String description, float amount) {
-    super(description, amount);
-    this.retailer = retailer;
+  public Restaurants() {
+    System.out.print("Please enter a restaurant: ");
+    String restaurant = scanner.nextLine();
+    this.restaurant = restaurant;
   }
 
   void printCostTransaction() {
     super.printTransaction();
-    System.out.println("Type: " + this.type);
+    System.out.println("restaurant: " + this.restaurant);
   }
 
 }
