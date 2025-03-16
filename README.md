@@ -8,21 +8,19 @@ The purpose of this program is to record personal expenses and keep track of the
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used visual studio code and java version 23.0.2
+I installed the extension pack for java by microsoft and the Language Support for Java(TM) extensions
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Java Full Course for Beginners] (https://www.youtube.com/watch?v=eIrMbAQSU34&ab_channel=ProgrammingwithMosh)
+- [Java Full Course for Beginners](https://www.youtube.com/watch?v=eIrMbAQSU34&ab_channel=ProgrammingwithMosh)
 - [Java Tutorials - Objects, Classes, Interfaces, Packages, and Inheritance ](https://dev.java/learn/oop/)
+- [W3Schools - Java](https://www.w3schools.com/java/default.asp)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- Store items to a csv file for further analysis on trends.
+- Add more categories (classes) for organizing expenses.
+- Creating subtotals for each category.
